@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* utilities */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* / utilities */
+
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+
+
+/* sezione debug */
+
+.debug.container {
+    border: 2px dashed red;
+}
+
+ .debug .logo {
+    height: 150px;
+    background-color:rgb(229, 121, 229);
+} 
+
+.debug .jumbo-tron {
+    height: 400px;
+    background-color:rgb(224, 214, 122);
+}
+
+ .debug .layout {
+    background-color:rgb(0, 136, 248);
+}
+
+.debug .head-main {
+    height: 100px;
+    background-color:rgb(171, 207, 230);
+}
+ 
+.debug .col {
+    height: 400px ;
+    background-color:rgb(171, 207, 230);
+}
+
+.debug .central-col {
+    height: 400px;
+    background-color:rgb(171, 207, 230);
+
+}
+
+.debug footer {
+    height: 50px;
+    background-color:rgb(135, 2, 255);
+}
+
+/* / sezione debug */
