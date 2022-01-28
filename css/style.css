@@ -3,6 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 /* utilities */
 
 .clearfix::after {
@@ -28,10 +33,23 @@
 
 .logo img {
     width: 200px;
-    border-right: 1px solid grey;
+    border-right: 1px solid lightgray;
     padding-right: 30px;
 }
 
+
+ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:gray;
+}
 
 .layout {
     padding-bottom: 20px;
@@ -56,10 +74,10 @@
     border: 2px dashed red;
 } */
 
-.debug .logo {
-    height: 150px;
-    background-color:rgb(229, 121, 229);
-}
+/* .debug .logo {
+    /* height: 150px; */
+    /* background-color:rgb(229, 121, 229);
+} */ 
 
 .debug .jumbo-tron {
     height: 400px;
