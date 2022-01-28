@@ -38,6 +38,36 @@ body {
 }
 
 
+.jumbo-tron {
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 400px;
+    border-radius: 10px;
+    color:white;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+
+.text {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+
+
 ul li {
     list-style-type: none;
     margin-top: 20px;
@@ -79,10 +109,10 @@ ul li {
     /* background-color:rgb(229, 121, 229);
 } */ 
 
-.debug .jumbo-tron {
+/* .debug .jumbo-tron {
     height: 400px;
     background-color:rgb(224, 214, 122);
-}
+} */
 
 .debug .layout {
     background-color:rgb(0, 136, 248);
