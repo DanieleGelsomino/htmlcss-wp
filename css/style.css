@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -24,12 +25,14 @@ body {
     margin: 20px auto;
 }
 
+
 .logo,
 .jumbo-tron,
 .layout,
 .head-main {
     margin-bottom: 20px;
 }
+
 
 .logo img {
     width: 200px;
@@ -47,6 +50,7 @@ body {
 
 }
 
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.2);
     height: 400px;
@@ -56,16 +60,17 @@ body {
     padding-left: 50px;
 }
 
+
 .text {
     width: 50%;
     font-size: 14px;
     font-weight: 300;
 }
 
+
 h2 {
     font-weight: 400;
 }
-
 
 
 ul li {
@@ -76,19 +81,23 @@ ul li {
     margin-right: 5px;
 }
 
+
 .menu li a {
     text-decoration: none;
     color:gray;
 }
+
 
 .layout {
     padding-bottom: 20px;
     vertical-align: bottom;
 }
 
+
 .leadership {
     padding-top: 20px;
 }
+
 
 h1 {
     font-weight: bold;
@@ -96,20 +105,17 @@ h1 {
 
 }
 
+
 .leadership p {
     color: gray;
     font-size: 14px;
 }
 
 
-.left-col {
+.left-col,
+.right-col {
     float: left;
     width: 25%;
-}
-.overlay-col {
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 
@@ -121,19 +127,34 @@ h1 {
 }
 
 
-.right-col {
-    float: left;
-    width: 25%;
+.overlay-col {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
+
+.size {
+    height: 200px ;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+}
 
 .image-left {
-        height: 200px ;
-        background-image: url(../img/img-1.jpg);
-        background-size: cover;
-        background-position:center;
-        border-radius: 10px;
+    background-image: url(../img/img-1.jpg);
 }
+
+
+.image-main {
+    background-image: url(../img/banner-2.jpg);
+}
+
+
+.image-right {
+    background-image: url(../img/img-3.jpg);
+}
+
 
 h2 {
     font-size: 16px;
@@ -141,28 +162,12 @@ h2 {
     margin-bottom: 10px;
 }
 
+
 p {
     font-size: 14px;
     font-weight: 200;
 }
 
-
-
-.image-main {
-    height: 200px ;
-    background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position:center;
-    border-radius: 10px;
-}
-
-.image-right {
-    height: 200px ;
-    background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position:center;
-    border-radius: 10px;
-}
 
 footer {
     font-size: 20px;
@@ -170,6 +175,7 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
+
 
 .heart::after {
     content: "\2665";
